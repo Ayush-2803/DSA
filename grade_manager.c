@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Structure for storing course details
+
 typedef struct {
     char courseName[50];
     float mark;
 } Course;
 
-// Structure for storing student details
+
 typedef struct {
     char fullName[100];
     int numCourses;
